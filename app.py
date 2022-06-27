@@ -82,10 +82,10 @@ def cal_bmi(hieght, weight):
 
 @st.cache
 def load_data():
-    path= r'C:\Users\DELL\Python files\Heart attack prediction\df.pkl'
+    path= 'df.pkl'
     with open(path, 'rb') as ref:
         df= pickle.load(ref)
-    path= r'C:\Users\DELL\Python files\Heart attack prediction\model.pkl'
+    path= 'model.pkl'
     with open(path, 'rb') as ref:
         pipe= pickle.load(ref)
     return df, pipe
