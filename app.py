@@ -76,7 +76,7 @@ def convert_age(x):
 def in_to_m(x):
     return x/39.37
 
-def cal_bmi(hieght, weight):
+def cal_bmi(height, weight):
     return weight/(height**2)
 
 
