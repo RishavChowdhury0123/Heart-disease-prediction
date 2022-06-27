@@ -1,11 +1,9 @@
-from this import d
 import pandas as pd
 import numpy as np
 import warnings
 import pickle
 import streamlit as st
 import catboost
-from yaml import load
 warnings.filterwarnings('ignore')
 
 st.set_page_config(page_title= 'Heart attack predictor', layout= 'wide')
