@@ -90,9 +90,8 @@ def load_data():
         pipe= pickle.load(ref)
     return df, pipe
 
+df, pipe= load_data()
 def main():
-    df, pipe= load_data()
-
     st.title('Heart disease predictor')
     cols= st.columns(4)
     sex= cols[0].radio('Select your gender', ['Male','Female'])
